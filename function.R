@@ -12,6 +12,7 @@ drink.function = function(price, type='Tea'){
     print(paste('With', price, ', you can drink', type))
 }
 
+tien_dien.function = function(tien_dien,so_kw){
 muc1=1678
 muc2=1734
 muc3=2014
@@ -39,3 +40,4 @@ if(so_kw<=50){
 }   else{ 
     tien_dien=bac50*muc1+bac50*muc2+bac100*muc3+bac100*muc4+bac100*muc5(so_kw - bac50 - bac50 - bac100 - bac100 - bac100)*muc6
 }
+    }
