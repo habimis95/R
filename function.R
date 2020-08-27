@@ -89,7 +89,7 @@ if(so_ngay<3){
          print(paste('Tien phai thanh toan: ',tien,'vnd'))
 }
     
-delivery_bill.function(chon_loai,sokm){
+delivery_bill.function=function(chon_loai,sokm){
 toi_thieu_2km_bike=10000
 km_bike=3600
 
