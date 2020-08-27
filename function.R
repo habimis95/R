@@ -124,23 +124,22 @@ print(paste('Tien xe: ', chuoi_tien,'VND'))
 }
 
 prime_check.function=function(n){
-    # input
-n = as.integer(prompt='Nhap n:')
+        # input
+n = as.integer(readline(prompt='Nhap n:'))
 flag = 0
 # prime numbers are greater than 1
 if(n>1){    
     # check for factors
     flag = 1
-    for(i in 2:(num-1)) {
-        if ((num %% i) == 0) {
+    for(i in 2:(n-1)) {
+        if ((n %% i) == 0) {
             flag = 0
             break}
     }
 } 
-if(num == 2)    flag = 1
+if(n == 2)    flag = 1
 if(flag == 1) {
-print(paste(num,"is a prime number"))
+print(paste(n,"is a prime number"))
 } else {
-print(paste(num,"is not a prime number"))
-}
+print(paste(n,"is not a prime number"))
 }
