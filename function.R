@@ -103,9 +103,9 @@ sokm = as.numeric(readline(prompt='So km:'))
 tien_xe = 0 
 if(chon_loai==1){
     if(sokm<2){
-    tien_xe=toi_thieu_2km_bike
+        tien_xe=toi_thieu_2km_bike
     }else{
-    tien_xe=toi_thieu_2km_bike  + (sokm - 2)*km_bike
+        tien_xe=toi_thieu_2km_bike  + (sokm - 2)*km_bike
     }
 }else if(chon_loai==2){
     if(sokm<2){
